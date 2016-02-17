@@ -15,15 +15,13 @@ Under Ubuntu ,you can use iverilog to analog Verilog code.
 
 To install it
 
-<code>
-sudo apt-get update
+<code>sudo apt-get update
 sudo apt-get install verilog
 </code>
 
-So easy,right?
+So easy! Right?
 Then you can create an new file named hello.v
-<code>
-module main;
+<code>module main;
 initial
 begin
 $display("Hello, World");
@@ -32,12 +30,10 @@ end
 endmodule
 </code>
 Compile this program and show the result of it with the command:
-<code>
-iverilog -o hello hello.v
+<code>iverilog -o hello hello.v
 vvp hello
 </code>
 Then you will get:
-<code>
-Hello, World
+<code>Hello, World
 </code>
 The installation has finished,<strong>enjoy it</strong>!
