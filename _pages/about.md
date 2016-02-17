@@ -8,7 +8,6 @@ layout: page
 permalink: http://www.mws.site/about/
 published: true
 ---
-<h5>About us</h5>
 We are a team from china.We are ordinary students but loving programming and making.
 Welcome everyone to join us!
 <h5>Member</h5>
