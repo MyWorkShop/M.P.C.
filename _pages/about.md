@@ -8,10 +8,10 @@ layout: page
 permalink: http://www.mws.site/about/
 published: true
 ---
-<h2>About us</h2>
+<h5>About us</h5>
 We are a team from china.We are ordinary students but loving programming and making.
 Welcome everyone to join us!
-<h2>Member</h2>
+<h5>Member</h5>
 <strong><em>jiegec</em> </strong>
 e-mail:<em><a href="mailto:jiegec@qq.com" target="_blank">jiegec@qq.com</a></em>
 About:<em><a href="http://jiegec.github.io" target="_blank">jiegec.github.io</a></em>
