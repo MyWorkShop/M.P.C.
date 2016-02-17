@@ -10,6 +10,8 @@ published: true
 ---
 We are a team from china.We are ordinary students but loving programming and making.
 Welcome everyone to join us!
+
+<code>echo "We are donig our best!";</code>
 <h5>Member</h5>
 <strong><em>jiegec</em> </strong>
 e-mail:<em><a href="mailto:jiegec@qq.com" target="_blank">jiegec@qq.com</a></em>
