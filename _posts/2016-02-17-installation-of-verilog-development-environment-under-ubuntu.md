@@ -51,18 +51,17 @@ assign {cout,sum}=ina+inb+cin;
 endmodule
 And then create a testbeach named test_add.v
 <code>`timescale 1ns/1ns
-module test_adder4;</code>
-
+module test_adder4;
 //Declare variables
 wire[3:0] sum;
 wire cout;
 reg[3:0] ina,inb;
-reg cin;
+reg cin;</code>
 
-//Instantiate the module adder4
-adder4 adder4_1(cout,sum,ina,inb,cin);
+<code>//Instantiate the module adder4
+adder4 adder4_1(cout,sum,ina,inb,cin);</code>
 
-//Stimulate the inputs, Finish the stimulation at 90 time units
+<code>//Stimulate the inputs, Finish the stimulation at 90 time units
 initial
 begin
 #0 ina = 4'b0001; inb = 4'b1010; cin = 1'b0;
@@ -74,17 +73,18 @@ begin
 #5 ina = 4'b0011; inb = 4'b1100; cin = 1'b0;
 #5 ina = 4'b0111; inb = 4'b1111; cin = 1'b1;
 #5 $finish;
-end
-
+end</code>
+<code>
 initial
-$monitor("At time %t, ina(%b) + inb(%b) + cin(%b) = sum(%b)(%2d),cout(%b)",$time, ina, inb, cin, sum, sum, cout);
+$monitor("At time %t, ina(%b) + inb(%b) + cin(%b) = sum(%b)(%2d),cout(%b)",$time, ina, inb, cin, sum, sum, cout);</code>
 
-initial
+<code>initial
 begin
 $dumpfile("test.vcd");
 $dumpvars(0,test_adder4);
 end
-endmodule
+endmodule</code>
+
 Compile this program and show the result of it with the command:
 <code>iverilog -o test add.v test_add.v
 vvp -n test -lxt2
