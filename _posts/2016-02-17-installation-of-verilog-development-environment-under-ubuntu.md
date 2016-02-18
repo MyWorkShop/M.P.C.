@@ -92,6 +92,6 @@ cp test.vcd test.lxt
 gtkwave test.lxt</code>
 
 You will get:
-<img class="alignnone  wp-image-40" src="http://www.mws.site/wp-content/uploads/2016/02/2012041821191181-300x91.jpg" alt="2012041821191181" width="630" height="191" />
-<img class="alignnone  wp-image-41" src="http://www.mws.site/wp-content/uploads/2016/02/2012041821193593-300x37.jpg" alt="2012041821193593" width="632" height="78" />
+<img class="alignleft wp-image-40 size-full" src="http://www.mws.site/wp-content/uploads/2016/02/2012041821191181.jpg" alt="2012041821191181" width="1201" height="366" />
+<img class="alignleft wp-image-41 size-full" src="http://www.mws.site/wp-content/uploads/2016/02/2012041821193593.jpg" alt="2012041821193593" width="1206" height="150" />
 The installation has finished,<strong>enjoy it</strong>!
